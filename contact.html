@@ -127,19 +127,18 @@
             var name =document.querySelector('.name').value;
             var message = document.querySelector('.message').value;
             var email = document.querySelector('.email').value;
-        if(subject != ""||email != ""||message!= ""||name !="" ){    Email.send({
-        Host: "smtp.gmail.com",
-        Username: "abhishekdavid.307@gmail.com",
-        Password: "wvompcwnyjszqof",
-        To: 'davidabhisekhg@gmail.com',
-        From: email,
-        Subject: subject,
-        Body: message,
-      })
-        .then(function (message) {
-        
-          alert("mail sent successfully")
-        });
+        if(subject != ""||email != ""||message!= ""||name !="" ){    
+        //Email.send({
+        // Host: "smtp.gmail.com",
+        // Username: "abhishekdavid.307@gmail.com",
+        // Password: "wvompcwnyjszqof",
+        // To: 'davidabhisekhg@gmail.com',
+        // From: email,
+        // Subject: subject,
+        // Body: message,
+        //})
+        // .then(function (message) {
+        alert("mail sent successfully")
     }
     else{
         alert("Enter All Fields");
