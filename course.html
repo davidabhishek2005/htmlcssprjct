@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width = device-width,initial-scale=1.0">
+        <title>University Web Design</title>
+        <link rel="stylesheet" href ="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href ="index.html"><img src="images/mylogo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()" ></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li                                           
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>OUR COURSES</h1>
+        </section>
+  <!-----course------>
+  <section class="course">
+    <h1>Courses We Offer
+    </h1>
+    <p>This Institution's Focus is Aligned With Student's Aspirations and Objectives, Primarily Geared Towards Attaining Admission to IITs and NITs. </p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Secondary School</h3>
+            <p>We provide secondary education that enhances and establishes a stronger foundation for students to pursue and secure admissions to IITs and NITs.</p>
+        </div>
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>We offer intermediate education that emphasizes specific practice problems to reinforce your understanding of concepts and enable you to apply them effectively in competitive exams.</p>
+        </div>    
+    </div>
+</section>      
+ <!----Facilities---->
+ <section class="Facilities">
+    <h1>Our Facilities</h1>
+    <p>We not only focus on academics but also strive to improve students'<br> productivity by promoting library use and engagement in sports.</p>
+    <div class="row">
+        <div class="Facilities-col">
+            <img src="images/library.jpg">
+            <h3>WORLD CLASS LIBRARY</h3>
+            <p>The library, with its collection of books,<br> serves as a resource that stimulates students' minds and imparts knowledge.</p> 
+        </div>
+        <div class="Facilities-col">
+            <img src="images/basketball.jpg">
+            <h3>SPORTS FACILITIES</h3>
+            <P>Engaging in sports provides a refreshing<br> break from academic pursuits while promoting physical activity and strengthening the body.</P>
+        </div>
+        <div class="Facilities-col">
+            <img src="images/Cafe.jpg">
+            <h3>CAFETARIA</h3>
+            <p>The cafeteria offers a welcoming space for everyone to unwind and enjoy the refreshments they desire.</p>
+        </div>
+
+    </div>
+</section>
+
+
+ <!----About us content-->
+
+<!-----course------>
+
+<!-----campus----->
+
+
+    <!----Facilities---->
+   
+    <!----Reviews-->
+   
+    <!----Call to Action-->
+    
+
+<!------footer---->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Bhaskar's Institution is wholly dedicated to assisting students in reaching their goals.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by David Abhishek</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -----Javascript------ -->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-300px";
+        }
+    </script>
+
+
+    </body>
+</html>
+
