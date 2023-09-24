@@ -97,7 +97,9 @@ nav img{
 nav .fa{
     display:none;
 }
-
+.aboutimg{
+    border-radius: 10px;
+}
 .halfstar{
     background-color: #121111;
 }
